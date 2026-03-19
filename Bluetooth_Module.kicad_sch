@@ -387,6 +387,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 107.95 100.33)
+		(size 35.56 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3764f572-618b-4089-b7e2-465cdd353a67")
+		(property "Sheetname" "Loads Control"
+			(at 107.95 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Loads_Control.kicad_sch"
+			(at 107.95 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth_Module"
+				(path "/a0279ad6-d799-42fb-ac0d-b52a8d0ab216"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
