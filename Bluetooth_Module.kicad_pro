@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -190,7 +190,10 @@
         0.0,
         0.2,
         0.3,
-        0.5
+        0.5,
+        1.0,
+        3.5,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -636,6 +639,10 @@
     [
       "3764f572-618b-4089-b7e2-465cdd353a67",
       "Loads Control"
+    ],
+    [
+      "8623da9c-23ce-4627-a85e-a21aa3230f20",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
