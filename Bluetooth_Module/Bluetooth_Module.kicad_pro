@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.5,
-          "height": 3.5,
-          "width": 3.5
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,74 +48,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|102118829|59283536|0e494796-3548-4587-8372-5f10d4c5fe02|a35b39a7-d82c-4959-ae7b-318a10d7c63a",
-          ""
-        ],
-        [
-          "courtyards_overlap|105655000|97005000|430ca0a5-52cc-46ff-bb89-2f8d614fe768|a35b39a7-d82c-4959-ae7b-318a10d7c63a",
-          ""
-        ],
-        [
-          "courtyards_overlap|107925000|83975000|5871cd38-7fc7-4915-b38c-f431384e6d28|a35b39a7-d82c-4959-ae7b-318a10d7c63a",
-          ""
-        ],
-        [
-          "courtyards_overlap|110909842|89175000|04532637-8b6f-4654-b79a-5224064688e5|a35b39a7-d82c-4959-ae7b-318a10d7c63a",
-          ""
-        ],
-        [
-          "courtyards_overlap|116334143|104355000|195d5a29-1e9a-4a43-b51f-478022d140af|3e06df2c-776e-425c-8477-9a0d51cf619c",
-          ""
-        ],
-        [
-          "courtyards_overlap|92905000|91555000|4e09382e-f21e-43c5-9018-5be851b92309|a35b39a7-d82c-4959-ae7b-318a10d7c63a",
-          ""
-        ],
-        [
-          "courtyards_overlap|94422197|60455000|a35b39a7-d82c-4959-ae7b-318a10d7c63a|dbc86ab9-bc6a-46d2-aafc-542f1c5fba54",
-          ""
-        ],
-        [
-          "courtyards_overlap|96144444|63455000|17b351b8-b9cf-44b3-8823-cc26dd685e1e|a35b39a7-d82c-4959-ae7b-318a10d7c63a",
-          ""
-        ],
-        [
-          "silk_overlap|101838095|58025000|2fbf65c5-d261-4f51-a16f-9930c01cad47|5ec92c84-50d5-4768-a4d7-856f78cfdff1",
-          ""
-        ],
-        [
-          "silk_overlap|115300000|95014285|27cf45b1-cb53-4416-b014-7189f888c4f7|e9c0ee41-8d05-4774-8c3c-7492635b493f",
-          ""
-        ],
-        [
-          "silk_overlap|126060000|75128571|a67611a4-6650-46a0-95ff-0af14978796e|ad1282be-9967-4dcb-b60a-d10271f1e057",
-          ""
-        ],
-        [
-          "silk_overlap|126340000|74750000|7a44f27e-8385-4ccb-bf10-5c83fc416838|ad1282be-9967-4dcb-b60a-d10271f1e057",
-          ""
-        ],
-        [
-          "silk_overlap|146090000|69335000|2dd43122-814e-42dc-92b4-82a595c3a275|37a639d7-5c8b-43d3-a9cc-ec632c65f21c",
-          ""
-        ],
-        [
-          "track_dangling|140200000|73406870|6b1cb55d-6c5c-4014-ae3f-e2d74782b3cd|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -243,15 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.3,
-        0.5,
-        1.0,
-        3.5,
-        5.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -278,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -684,23 +608,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "a0279ad6-d799-42fb-ac0d-b52a8d0ab216",
-      "Root"
-    ],
-    [
-      "34d1e132-1687-44c1-b7fc-4cf68289315c",
-      "Connectivity"
-    ],
-    [
-      "3764f572-618b-4089-b7e2-465cdd353a67",
-      "Loads Control"
-    ],
-    [
-      "8623da9c-23ce-4627-a85e-a21aa3230f20",
-      "Power Supply"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
